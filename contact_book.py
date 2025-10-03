@@ -1,4 +1,4 @@
-contacts = []  # list but will hold only ONE contact
+contacts = []  
 
 def add_contact():
   name = input("Enter name: ")
@@ -40,6 +40,7 @@ while True:
         exit_app()
     else:
         print("Invalid choice. Try again.")
+
 
 
   
